@@ -2,16 +2,10 @@
     background: url(../media/img/introduction_bg.jpg) no-repeat center center fixed;
     background-size: cover;
     padding-top: 40px;
-}
-
-.introduction::after {
-    content: "";
-    display: table;
-    clear: both;
+    display: flex;
 }
 
 .introduction__column {
-    float: left;
     width: 50%;
     text-align: center;
 }
