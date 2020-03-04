@@ -1,0 +1,127 @@
+.introduction {
+    background: url(../media/img/introduction_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.introduction::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__img {
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+}
+
+.logo__text {
+    display: inline;
+}
+
+.logo__title {
+    font-style: oblique;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline;
+}
+
+.logo__description {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 9px;
+    display: inline;
+}
+
+.nav {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.nav-list {
+    display: inline-block;
+    background-color: rgb(245, 197, 6);
+    box-shadow: -6px -6px 0px 0px rgba(245, 197, 6, 0.5), -11px -11px 0px 0px rgba(245, 197, 6, 0.5);
+}
+
+.nav-list::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav-list__item:first-child {
+    padding-left: 40px;
+}
+
+.nav-list__item::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.nav-list__item:nth-child(1)::before {
+    background: url(../media/img/about_us_icon.png) no-repeat;
+}
+
+.nav-list__item:nth-child(2)::before {
+    background: url(../media/img/services_icon.png) no-repeat;
+}
+
+.nav-list__item:nth-child(3)::before {
+    background: url(../media/img/contact_icon.png) no-repeat;
+    width: 25px;
+}
+
+.nav-list__item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(155, 125, 8);
+    float: left;
+    padding: 12px 22px 12px 22px;
+    border-right: rgb(220, 177, 5) 2px solid;
+}
+
+.prime-header {
+    margin: 160px 0 160px 0;
+}
+
+.prime-header__line {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;   
+}
+
+.prime-header__line:last-child {
+    margin-top: 20px;
+}
+
+.prime-header__line_color-highlighted {
+    color: rgb(245, 197, 6);
+}
+
+.video {
+    display: none;
+}
