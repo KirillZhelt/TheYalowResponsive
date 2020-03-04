@@ -10,7 +10,7 @@
     clear: both;
 }
 
-.column {
+.introduction__column {
     float: left;
     width: 50%;
     text-align: center;
@@ -122,4 +122,46 @@
 
 .video {
     display: none;
+}
+
+.advantages {
+    background-color: rgb(248, 232, 232);
+}
+
+.advantages__row {
+    width: 80%;
+    margin: auto;
+}
+
+.advantages__row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.advantages__row-column {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    border-right: rgb(213, 199, 199) 1px solid;
+    border-left: rgb(213, 199, 199) 1px solid;
+    display: table;
+}
+
+.card {
+    height: 170px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card__img {
+    height: 80px;
+}
+
+.card__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    padding-top: 12px;
 }
