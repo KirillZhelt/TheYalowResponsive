@@ -97,21 +97,24 @@
     margin: 160px 0 160px 0;
 }
 
-.prime-header__line {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 3px;
+.header {
     color: white;
     text-align: center;   
 }
 
-.prime-header__line:last-child {
+.header:last-child {
     margin-top: 20px;
 }
 
-.prime-header__line_color-highlighted {
+.header_color-highlighted {
     color: rgb(245, 197, 6);
+}
+
+.header_font_section-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
 
 .video {
