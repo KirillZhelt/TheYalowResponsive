@@ -125,16 +125,10 @@
 .advantages__row {
     width: 80%;
     margin: auto;
-}
-
-.advantages__row::after {
-    content: "";
-    display: table;
-    clear: both;
+    display: flex;
 }
 
 .advantages__row-column {
-    float: left;
     width: 33.33%;
     box-sizing: border-box;
     border-right: rgb(213, 199, 199) 1px solid;
