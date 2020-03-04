@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1050px) {
+    
+    .introduction__column:first-child {
+        width: 40%;
+    }
+
+    .introduction__column:nth-child(2) {
+        width: 60%;
+    }
+
+    .logo__description {
+        display: none;
+    }    
+
+}
+
+@media only screen and (max-width: 900px) {
+    .introduction {
+        background: none;
+        background-color: rgb(164, 50, 50);
+        padding-top: 0;
+    }
+
+    .introduction__column:first-child {
+        width: auto;
+        padding: 10px 0 10px 10px;
+    }
+
+    .introduction__column:nth-child(2) {
+        width: auto;
+    }
+
+    .logo__img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo__title {
+        font-size: 20px;
+    }
+
+    .nav {
+        margin-top: 0px;
+    }
+
+    .nav-list {
+        background-color: rgb(249, 109, 3);
+        box-shadow: none;
+        padding: 10px 0 10px 10px;
+    }
+
+    .nav-list__item:first-child {
+        padding-left: 20px;
+    }
+
+    .nav-list__item {
+        border-right-color: rgb(224, 98, 3);
+    }
+
+    .prime-header {
+        display: none;
+    }
+
+    .video {
+        display: block;
+    }
+
+    .video__image {
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    .advantages__row-column {
+        border: none;
+
+    }
+}
+
+@media only screen and (max-width: 661px) {
+    .nav-list__item {
+        font-size: 0;
+    }
+
+    .advantages__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__row-column {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .introduction__column:first-child {
+        padding: 5px 0 5px 5px;
+    }
+
+    .logo__img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .logo__title {
+        font-size: 14px;
+    }
+
+    .nav-list {
+        padding: 5px 0 5px 5px;
+    }
+
+    .nav-list__item:first-child {
+        padding-left: 5px;
+    }
+
+    .nav-list__item {
+        font-size: 0;
+        padding: 3px 5px 3px 5px;
+        vertical-align: super;
+    }
+}
+
+@media only screen and (max-width: 263px) {
+    .logo__title {
+        display: none;
+    }
+}
