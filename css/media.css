@@ -85,7 +85,10 @@
     .advantages__row {
         flex-direction: column;
         align-items: center;
+    }
 
+    .advantages__row-column {
+        width: 100%;
     }
 }
 
