@@ -95,14 +95,14 @@
 
 .prime-header {
     margin: 160px 0 160px 0;
+    text-align: center;   
 }
 
 .header {
     color: white;
-    text-align: center;   
 }
 
-.header:last-child {
+.header_margin_top-20 {
     margin-top: 20px;
 }
 
@@ -112,8 +112,21 @@
 
 .header_font_section-header {
     font-family: 'Open Sans', sans-serif;
+}
+
+.header_font_size-50 {
     font-size: 50px;
+}
+
+.header_font_size-36 {
+    font-size: 36px;
+}
+
+.header_font_weight-700 {
     font-weight: 700;
+}
+
+.header_font_spacing-2 {
     letter-spacing: 3px;
 }
 
@@ -155,4 +168,82 @@
     font-weight: 100;
     font-size: 22px;
     padding-top: 12px;
+}
+
+.functions {
+    background: url(../media/img/functions_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 160px;
+}
+
+.functions-content {
+    width: 80%;
+    margin: auto;
+}
+
+.functions-container {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+.function {
+    width: 390px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.function_description {
+    background-color: rgb(236, 158, 3);
+    padding: 30px 30px 0 30px;
+}
+
+.function__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+}
+
+.function__plus {
+    font-size: 20px;
+    font-weight: 700;
+    float: right;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.function_video {
+    margin-right: 40px;
+}
+
+.function__image {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.function_twitter {
+    background-color: rgb(236, 158, 3);
+    padding: 30px 30px 0 30px;
+}
+
+.function__number {
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    right: 18px;
+    top: 15px;
+}
+
+.function__twitter-logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
