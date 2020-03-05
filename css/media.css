@@ -13,6 +13,12 @@
     }
 }
 
+@media only screen and (max-width: 1160px) {
+    .terms-content {
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width: 1050px) {
     
     .introduction__column:first-child {
@@ -100,7 +106,6 @@
 
     .advantages__row-column {
         border: none;
-
     }
 
     .functions {
@@ -157,6 +162,34 @@
     }
 
     .function__plus_twitter {
+        display: none;
+    }
+
+    .terms {
+        padding-bottom: 40px;
+        padding-top: 20px;
+        background-color: rgb(71, 71, 71);
+    }
+
+    .terms-header__header {
+        padding: 14px;
+    }
+
+    .terms-content {
+        width: 100%;
+    }
+
+    .terms-img-container {
+        margin-right: 0;
+    }
+
+    .terms__img {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .terms-list-container {
         display: none;
     }
 }
@@ -256,6 +289,10 @@
         font-size: 0;
         padding: 3px 5px 3px 5px;
         vertical-align: super;
+    }
+
+    .terms-header__header {
+        font-size: 20px;
     }
 }
 
