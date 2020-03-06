@@ -248,6 +248,20 @@
     .function_twitter {
         height: 200px;
     }
+
+    .free-sign_terms {
+        position: absolute;
+        top: -10%;
+        left: -2%;
+        background-color: rgb(245, 197, 6);
+        border-radius: 50%;
+        width: 16%;
+        padding-bottom: 16%;
+    }
+
+    .free-sign__text {
+        font-size: 2vw;
+    }
 }
 
 @media only screen and (max-width: 530px) {

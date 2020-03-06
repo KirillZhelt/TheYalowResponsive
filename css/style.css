@@ -274,10 +274,34 @@
     align-items: center;
     width: 80%;
     margin: auto;
+    margin-top: 50px;
 }
 
 .terms-img-container {
     margin-right: 70px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.free-sign_terms {
+    position: absolute;
+    top: -18%;
+    left: -8%;
+    background-color: rgb(245, 197, 6);
+    border-radius: 50%;
+    width: 22%;
+    padding-bottom: 22%;
+}
+
+.free-sign__text {
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 .terms-list {
