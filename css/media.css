@@ -50,7 +50,7 @@
 @media only screen and (max-width: 900px) {
     .introduction {
         background: none;
-        background-color: rgb(164, 50, 50);
+        background-color: rgb(71, 71, 71);
         padding-top: 0;
     }
 
@@ -84,7 +84,6 @@
     }
 
     .nav-list {
-        background-color: rgb(249, 109, 3);
         box-shadow: none;
         padding: 0;
         width: 100%;
@@ -97,7 +96,6 @@
     }
 
     .nav-list__item {
-        border-right-color: rgb(224, 98, 3);
         height: 100%;
     }
 
