@@ -278,6 +278,10 @@
         height: 100px;
         width: 130px;
     }
+
+    .terms-content {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
